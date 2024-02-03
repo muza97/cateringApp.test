@@ -45,9 +45,9 @@ export default function App() {
         })}
       >
         <Tab.Screen name="Home" component={HomeScreen} />
-        <Tab.Screen name="Favorite" component={Favorite} />
         <Tab.Screen name="Catering" component={Catering} />
         <Tab.Screen name="Cake" component={Cake} />
+        <Tab.Screen name="Favorite" component={Favorite} />
         <Tab.Screen name="User" component={User} />
         <Tab.Screen name="Settings" component={Settings} />
         <Tab.Screen name="Chat" component={Chat} />
